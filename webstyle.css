@@ -58,8 +58,9 @@ h4 {
 }
 
 header img.jpg {
-    height: 25vw;
+    height: 27vw;
     width: auto;
+    border: 0.3vw white solid;
 }
 
 img.logo {
@@ -193,7 +194,7 @@ dt {
 
 img.jpg {
     border-radius: 10px;
-    border: 3px white solid;
+    border: 0.3vw white solid;
 }
 
 img.png {
@@ -208,10 +209,6 @@ img.inline {
 img.inlineTop {
     height: 1.5em;
     text-align: left;
-}
-
-header img.jpg {
-    border: 7px white solid;
 }
 
 header img.png {
@@ -280,7 +277,7 @@ nav a,
 header a {
     color: white;
     background-color: gold;
-    border: 2px black solid;
+    border: 0.2vw black solid;
     padding: 1.5vw 1vw;
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 0.026lh black;
@@ -342,7 +339,7 @@ p {
 dd p,
 h3:not(.header) {
     background-color: rgb(55, 150, 240);
-    border: 3px white solid;
+    border: 0.2vw white solid;
     border-radius: 10px;
     margin: 0;
     padding: 10px 17px;
