@@ -18,13 +18,13 @@ header {
     text-align: center;
     display: block;
     margin: 0 -10vw;
-    height: 500px;
+    height: 35vw;
 }
 
 header h1,
 h3 h1 {
     text-transform: uppercase;
-    font-size: 65px;
+    font-size: 5vw;
     margin-top: 0;
     padding-top: 25px;
     margin-bottom: 0;
@@ -58,7 +58,7 @@ h4 {
 }
 
 header img.jpg {
-    height: 405px;
+    height: 25vw;
     width: auto;
 }
 
@@ -241,9 +241,9 @@ nav {
     padding: 0;
     margin-left: -10vw;
     margin-right: -10vw;
-    padding-bottom: 2vh;
+    padding-bottom: 1vw;
     text-align: center;
-    padding-top: 2vh;
+    padding-top: 1vw;
     /* width: 100vw */
     z-index: 1000;
 }
@@ -264,7 +264,7 @@ nav li {
     margin: 0;
     padding: 0;
     margin-right: 0.5vw;
-    font-size: 35px;
+    font-size: 2vw;
 }
 
 nav a {
@@ -273,7 +273,7 @@ nav a {
 }
 
 nav .subtitle {
-    font-size: 27px;
+    font-size: 1.8vw;
 }
 
 nav a,
@@ -281,7 +281,7 @@ header a {
     color: white;
     background-color: gold;
     border: 2px black solid;
-    padding: 25px 20px;
+    padding: 1.5vw 1vw;
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 0.026lh black;
     text-decoration: none;
