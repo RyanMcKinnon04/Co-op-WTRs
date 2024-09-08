@@ -14,7 +14,7 @@ header {
     background-color: green;
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(header.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
     display: block;
     margin: 0 -10vw;
