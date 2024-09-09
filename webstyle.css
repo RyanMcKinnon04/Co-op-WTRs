@@ -1,5 +1,5 @@
 body {
-    margin: 0 10vw;
+    margin: 0 5vw;
     /* background-color: rgb(31, 149, 245); */
     /* background-color: rgb(26, 194, 255); */
     /* background: radial-gradient(circle, rgba(26, 194, 255, 1) 0%, rgba(31, 149, 245, 1) 80%); */
@@ -17,8 +17,8 @@ header {
     background-size: cover;
     text-align: center;
     display: block;
-    margin: 0 -10vw;
-    height: 35vw;
+    margin: 0 -5vw;
+    height: fit-content;
 }
 
 header h1,
@@ -60,7 +60,7 @@ h4 {
 header img.jpg {
     height: 27vw;
     width: auto;
-    border: max(3px, 0.3vw) white solid;
+    border: max(2px, 0.3vw) white solid;
 }
 
 img.logo {
@@ -80,53 +80,6 @@ h3:has(p.mariotitle) {
     color: white;
     font-weight: normal
 }
-
-.errPage {
-    margin: auto;
-    width: 60%;
-    margin-top: 5vw;
-    text-align: center;
-}
-
-.errPage h1 {
-    font-size: 100px;
-    margin: 0;
-}
-
-.errPage h1 img {
-    /* position: absolute; */
-    float: left;
-    top: 12vw;
-    left: 23vw;
-    height: 300px;
-    margin-right: -10vw;
-}
-
-#errCode {
-    -webkit-text-fill-color: black;
-}
-
-.errPage h2 {
-    -webkit-text-fill-color: rgb(2, 178, 2);
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    line-height: 50px;
-}
-
-.errPage h2 img {
-    height: 3lh;
-    float: right;
-    position: relative;
-    right: 10px;
-}
-
-.errPage p {
-    font-size: 25px;
-    margin-left: -10%;
-    margin-right: -10%;
-}
-
 
 header h2 {
     text-transform: uppercase;
@@ -230,10 +183,8 @@ nav {
     border-radius: 4px;
     /* position: sticky; */
     top: 0;
-    margin: 0;
+    margin: 0 -5vw;
     padding: 0;
-    margin-left: -10vw;
-    margin-right: -10vw;
     padding-bottom: 1vw;
     text-align: center;
     padding-top: 1vw;
@@ -344,8 +295,9 @@ h3:not(.header) {
 
 h3:not(.header) {
     margin-top: 25px;
-    /* margin-left: 10vw;
-    margin-right: 10vw; */
+    padding-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 td img.portrait {
@@ -404,7 +356,7 @@ table ul {
 }
 
 table ul:has(figure) {
-    margin: 0px -10vw;
+    margin: 0px -5vw;
 }
 
 table li:has(figure) {
@@ -482,7 +434,7 @@ footer {
     background-size: 120% 100%, contain;
     background-position: bottom;
     padding: 20px 5vw;
-    margin: 0 -10vw;
+    margin: 0 -5vw;
     /* height: 10vmax; */
     height: fit-content;
 
@@ -596,10 +548,6 @@ dt {
     font-size: max(22.5px, 3vw);
     margin-bottom: 10px;
     margin-top: 10px;
-}
-
-dd {
-    margin: 0;
 }
 
 table th {
