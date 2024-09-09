@@ -76,10 +76,6 @@ h3 .mariotitle {
 }
 
 h3:has(p.mariotitle) {
-    margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 25px;
     font-size: max(11px, 1.3vw);
     color: white;
     font-weight: normal
@@ -348,8 +344,8 @@ h3:not(.header) {
 
 h3:not(.header) {
     margin-top: 25px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    /* margin-left: 10vw;
+    margin-right: 10vw; */
 }
 
 td img.portrait {
@@ -600,6 +596,10 @@ dt {
     font-size: max(22.5px, 3vw);
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+dd {
+    margin: 0;
 }
 
 table th {
