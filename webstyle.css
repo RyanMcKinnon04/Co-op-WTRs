@@ -65,7 +65,7 @@ header img.jpg {
 
 img.logo {
     width: 50vw;
-    border: white, max(3px, 0.3vw), solid;
+    border: white max(3px, 0.3vw) solid;
     border-radius: 1vw;
 }
 
