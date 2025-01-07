@@ -76,7 +76,7 @@ h3 .mariotitle {
 }
 
 h3:has(p.mariotitle) {
-    font-size: max(11px, 1.3vw);
+    font-size: max(11px, 1.2vw);
     color: white;
     font-weight: normal
 }
@@ -144,6 +144,14 @@ dt {
 img.jpg {
     border-radius: 1vw;
     border: max(2px, 0.3vw) white solid;
+}
+
+figure img.jpg:hover {
+    border: max(2px, 0.3vw) black solid;
+}
+
+figure img.jpg:active {
+    border: max(2px, 0.3vw) gold solid;
 }
 
 img.png {
@@ -277,9 +285,9 @@ p img.imageL {
 } */
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Monaco', Courier, monospace;
     color: white;
-    font-size: max(10px, 1.1vw);
+    font-size: max(10px, 1vw);
 }
 
 #body td p,
@@ -290,7 +298,7 @@ h3:not(.header) {
     border-radius: 1vw;
     margin: 0;
     padding: 10px 17px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Monaco', Courier, monospace;
 }
 
 h3:not(.header) {
@@ -378,6 +386,10 @@ td a.link:hover img {
 
 dl td:has(img:not(.imageR, .imageL, .inline, .inlineTop)) {
     text-align: center;
+}
+
+img.joinapp {
+    margin-right: 20px;
 }
 
 img.app1 {
@@ -534,14 +546,14 @@ footer td a.link:hover img {
 
 figcaption {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Monaco', Courier, monospace;
     color: gainsboro;
     font-style: italic;
     /* filter: drop-shadow(0.2em 0.2em 0.2em black) */
 }
 
 figure figcaption {
-    font-size: max(12px, 1.4vw);
+    font-size: max(12px, 1.2vw);
 }
 
 dt {
