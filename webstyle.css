@@ -440,7 +440,7 @@ td a.link:active img {
 } */
 
 footer {
-    background-image: url(Images/stage.png), url(Images/wood.jpg);
+    /* background-image: url(Images/stage.png), url(Images/wood.jpg); */
     background-position: center bottom, center bottom;
     background-repeat: no-repeat, repeat-x;
     background-size: 120% 100%, contain;
